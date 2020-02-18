@@ -5,3 +5,8 @@ body {
     height:100vh;
     background-size: cover;
 }
+#resume {
+    height:60%;
+    width:50%;
+
+}
