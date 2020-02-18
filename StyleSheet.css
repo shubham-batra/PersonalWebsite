@@ -2,6 +2,6 @@ body {
     background-image: url('close-up-of-silhouette-against-blue-sky-311039.jpg'); /*Make sure to add any additional pictures to the same folder.*/
     background-repeat: space; 
     background-position: center;
-    height:100vh;
+    height:1000vh;
     background-size: cover;
 }
