@@ -10,3 +10,162 @@ body {
     width:50%;
 
 }
+
+
+/* =Section general styling
+-------- */
+
+section {
+    text-align: center;
+    padding: 80px 0;
+}
+
+/*
+ 
+  Section with featured background image. Every section which will have this
+  class will get the effect with a background cover.
+ 
+*/
+
+.featured-bg-image {
+    position: relative;
+    background-color: #222222;
+    color: white;
+    min-height: 500px;
+}
+
+    .featured-bg-image:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        opacity: .35;
+    }
+
+.help:before {
+    background: url("../images/help_bg_image.jpg");
+}
+
+.creativity:before {
+    background: url("../images/creativity_bg_image.jpg");
+    background-position: 50% 0;
+}
+
+.quote:before {
+    background: url("../images/quote_bg_image.jpg");
+}
+
+.video-iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.video:before {
+    background: url("../images/video_bg_image.jpg");
+}
+
+.clients {
+    background-color: #f4f4f4;
+}
+
+.footer {
+    background-color: #222222;
+    color: white;
+}
+
+
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 3;
+    width: 320px;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+    .navigation.active {
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    .navigation ul {
+        list-style: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: 0;
+        background: #222;
+    }
+
+        .navigation ul li {
+            display: block;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+            .navigation ul li a {
+                display: block;
+                height: 100%;
+                padding: 10px 0;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: white;
+                font-weight: 900;
+            }
+
+                .navigation ul li a.current,
+                .navigation ul li a:hover {
+                    color: #222;
+                    background-color: white;
+                }
+
+    .navigation .menu-icon {
+        color: white;
+        font-size: 30px;
+        line-height: 1em;
+        position: absolute;
+        left: 100%;
+        padding: 20px;
+        -webkit-transition: all .15s ease-in-out;
+        -moz-transition: all .15s ease-in-out;
+        -ms-transition: all .15s ease-in-out;
+        -o-transition: all .15s ease-in-out;
+        transition: all .15s ease-in-out;
+    }
+
+        .navigation .menu-icon.active {
+            background-color: rgb(255, 0, 0);
+        }
+
+        .navigation .menu-icon:hover {
+            color: #222;
+            background-color: transparent;
+        }
