@@ -7,177 +7,34 @@
 
 
 
-<nav class="navigation">
-    <a href="#" class="menu-icon">
+
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#resume">Resume</a>
+    <a href="#projects">Projects</a>
+    <a href="#activities">Activities</a>
+    <a href="#statistics">Statistics</a>
+    <a href="#contacts">Contacts</a>
+
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
     </a>
-    <ul class="main-navigation" role="navigation">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#creativity">Creativity</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#help">Help</a></li>
-        <li><a href="#clients">Clients</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#video">Video</a></li>
-        <li><a href="#why-us">Why us?</a></li>
-        <li><a href="#quote">Quote</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+</div>
 
 
-<section id="hero" class="hero u-full-width">
+<section id="home" class="home u-full-width">
     <div class="hero-image"></div>
     <div class="container centered">
         <div class="twelve columns">
             <h1 class="separator">Shubham Batra</h1>
             <h2>
-                I am an undergraduae student at UCR. This is my website.
             </h2>
         </div>
-    </div>
-</section>
-
-
-<section id="introduction" class="introduction u-full-width">
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns">
-                <h3 class="separator">Introduction</h3>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</h4>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="creativity" class="creativity u-full-width featured-bg-image">
-    <h4 class="centered">
-        <button class="button inverted">Pure creativity</button>
-    </h4>
-</section>
-
-
-<section id="work" class="work u-full-width">
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns">
-                <h3 class="separator">Some of our work</h3>
-            </div>
-        </div>
-        <div class="row">
-            <ul class="work-filters u-full-width">
-                <li class="active">
-                    <a href="#">All</a>
-                </li>
-                <li>
-                    <a href="#">Branding</a>
-                </li>
-                <li>
-                    <a href="#">Web design</a>
-                </li>
-                <li>
-                    <a href="#">Mobile</a>
-                </li>
-                <li>
-                    <a href="#">UI</a>
-                </li>
-                <li>
-                    <a href="#">Illustrations</a>
-                </li>
-            </ul>
-        </div>
-        <div class="row">
-            <ul class="work-items u-cf">
-                <li class="four columns">
-                    <img src="http://placehold.it/400">
-                    <div class="work-detail">
-                        <div class="vertical-centered">
-                            <h3>Branding</h3>
-                            <p class="separator orange">MTV AMA logo</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="four columns">
-                    <img src="http://placehold.it/400">
-                    <div class="work-detail">
-                        <div class="vertical-centered">
-                            <h3>Web Design</h3>
-                            <p class="separator orange">Dribbble redesign</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="four columns">
-                    <img src="http://placehold.it/400">
-                    <div class="work-detail">
-                        <div class="vertical-centered">
-                            <h3>Mobile UI</h3>
-                            <p class="separator orange">Google Mail</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="four columns">
-                    <img src="http://placehold.it/400">
-                    <div class="work-detail">
-                        <div class="vertical-centered">
-                            <h3>Illustrations</h3>
-                            <p class="separator orange">Flat icons</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="four columns">
-                    <img src="http://placehold.it/400">
-                    <div class="work-detail">
-                        <div class="vertical-centered">
-                            <h3>Web design</h3>
-                            <p class="separator orange">Inbox by google</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="four columns">
-                    <img src="http://placehold.it/400">
-                    <div class="work-detail">
-                        <div class="vertical-centered">
-                            <h3>UI</h3>
-                            <p class="separator orange">Skeleton skin got a new UI</p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-
-<section id="help" class="help u-full-width featured-bg-image">
-    <h4 class="centered">
-        <button class="button inverted">We’re here to help!</button>
-    </h4>
-</section>
-
-<section id="clients" class="clients u-full-width">
-    <div class="container">
-        <div class="row">
-            <h3 class="separator">Our clients</h3>
-        </div>
-        <ul class="clients u-full-width u-cf">
-            <li>
-                <img src="http://placehold.it/200x50" alt="Google Client">
-            </li>
-            <li>
-                <img src="http://placehold.it/200x50" alt="Samsung Client">
-            </li>
-            <li>
-                <img src="http://placehold.it/200x50" alt="Flickr Client">
-            </li>
-            <li>
-                <img src="http://placehold.it/200x50" alt="Foursquare Client">
-            </li>
-            <li>
-                <img src="http://placehold.it/200x50" alt="Pinterest Client">
-            </li>
-        </ul>
-    </div>
     </div>
 </section>
 
@@ -186,118 +43,72 @@
     <div class="container">
         <div class="row">
             <div class="twelve columns">
-                <h3 class="separator">About us</h3>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</h4>
+                <h3 class="separator">Introduction</h3>
+                <h4>I am a student with Senior standing at the University of California, Riverside majoring in Computer Science. My primary interest lies in cybersecurity although I also have interests in web development.</h4>
             </div>
-        </div>
-        <div class="row">
-            <ul class="people-list">
-                <li class="three columns people-list-item">
-                    <img src="http://placehold.it/300">
-                    <div class="people-hover">
-                        <a href="#"><i class="fa fa-external-link"></i></a>
-                        <div class="people-detail">
-                            <h3>JOHN</h3>
-                            <p>CEO/Founder</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="three columns people-list-item">
-                    <img src="http://placehold.it/300">
-                    <div class="people-hover">
-                        <a href="#"><i class="fa fa-external-link"></i></a>
-                        <div class="people-detail">
-                            <h3>Wiliam</h3>
-                            <p>CTO/Founder</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="three columns people-list-item">
-                    <img src="http://placehold.it/300">
-                    <div class="people-hover">
-                        <a href="#"><i class="fa fa-external-link"></i></a>
-                        <div class="people-detail">
-                            <h3>Clare</h3>
-                            <p>Designer</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="three columns people-list-item blank-feature">
-                    <div class="vertical-centered">
-                        <h3 class="separator">WE ARE HIRING</h3>
-                        <button class="button">Apply</button>
-                    </div>
-                </li>
-            </ul>
         </div>
     </div>
 </section>
 
-
-<section id="video" class="video u-full-width featured-bg-image">
-    <h4 class="centered">
-        <a href="http://www.youtube.com/embed/EVpyXNiHVbE?autoplay=1" class="button inverted circle">
-            <i class="fa fa-play"></i>
-        </a>
-    </h4>
-</section>
-
-
-
-<section class="footer u-full-width">
+<section id="resume" class="resume u-full-width ">
     <div class="container">
         <div class="row">
             <div class="twelve columns">
-                <h5>&copy 2020 Shubham Batra.</h5>
+                <h3 class="seperator">Resume</h3>
             </div>
         </div>
     </div>
 </section>
 
 
+<section id="projects" class="projects u-full-width">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h3 class="separator">Projects</h3>
+            </div>
+        </div>
+    </div>
+</section>
 
 
+<section id="activities" class="activities u-full-width ">
+    <h3 class="separator">Activities</h3>
+</section>
 
-
-
-
-
-
-
-
-
-
-<!-- <!DOCTYPE html>
-<html>
-
-
-
-<head>
-    <link rel="stylesheet" type="text/css" href="./StyleSheet.css">
-    <link rel="stylesheet" type="text/css" href="./normalize.css">
-    <link rel="stylesheet" type="text/css" href="./skeleton.css">
-
-
-</head>
-<body>
-
-    <div id="nav" class="fourteen columns">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+<section id="statistics" class="statistics u-full-width">
+    <div class="container">
+        <div class="row">
+            <h3 class="separator">Statistics</h3>
+        </div>
+        <ul class="clients u-full-width u-cf">
         </ul>
     </div>
+</section>
 
+<section id="contacts" class="contacts u-full-width">
     <div class="container">
-        <h1>Shubham Batra</h1>
+        <div class="row">
+            <div class="twelve columns">
+                <h3 class="separator">Contacts</h3>
+                <h4></h4>
+            </div>
+        </div>
     </div>
+</section>
 
-    <div id="nav" class="fourteen columns">
-    </div>
-    </div><!-- container -->
-<!--
-    <p>This is the soon to be website of Shubham Batra</p>
-    <!--<embed id="resume" src="https://shubham-batra.github.io/Resume2020.pdf"-->
-</html>
+
+<section id="footer" class="footer ">
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                    <h5>&copy 2020 Shubham Batra</h5>
+                </div>
+            </div>
+        </div>
+
+</section>
+
+
+
+
