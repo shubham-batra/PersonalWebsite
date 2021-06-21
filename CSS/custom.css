@@ -7,7 +7,7 @@
   /* Sections
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .section {
-    padding: 1rem 0 1rem;
+    padding: 8rem 0 7rem;
     text-align: center;
   }
   .section-heading,
@@ -18,7 +18,7 @@
   /* Home
   ------------------------------------------------- */
   .home {
-    background-image: url('../images/pexels-pixabay-531880.jpg');
+    background-image: url('../Images/pexels-pixabay-531880.jpg');
     background-size: cover;
     color: rgb(10, 2, 2);
     padding-bottom: 5rem;
@@ -43,11 +43,10 @@
     color: rgb(10, 2, 2);
     padding: 1rem;
     background-color: #F7F9FB;
-    height: 80px;
   }
 
   .about-multiplier {
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     background-color: #F7F9FB;
   }
 

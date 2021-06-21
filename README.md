@@ -3,11 +3,11 @@ This is my personal website. It is accessible at shubham.batra.github.io. I used
 Current Known Issues:
 - Naviagtion bar is see-through and not properly centered
 - Sections have margins that are too long
-- No version number
+- No version number on website
 
 -----Release Updates-----
 
-Version 0.8 (6/21/2021) (Latest)
+Version 0.8.1 (6/21/2021) (Latest)
 - Reorganized everything. Functional button. Cleaner color scheme. Updated Resume
 
 Version 0.6 (12/02/2020)
