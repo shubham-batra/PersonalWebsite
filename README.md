@@ -11,7 +11,10 @@ Known Bugs:
 
 -----Release Updates-----
 
-Version 0.6 (12/02/2020) (Latest)
+Version 0.8 () (Latest)
+- Reorganize Everything
+
+Version 0.6 (12/02/2020)
 - Centered the navigtion bar, made navigation bar transparent
 - Uploaded Resume
 - Shrinked height of copyright section
