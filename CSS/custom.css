@@ -1,0 +1,332 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+    border-radius: 100px;
+  }
+  
+  /* Sections
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .section {
+    padding: 1rem 0 1rem;
+    text-align: center;
+  }
+  .section-heading,
+  .section-description {
+    margin-bottom: 1.2rem;
+  }
+
+  /* Home
+  ------------------------------------------------- */
+  .home {
+    background-image: url('../images/pexels-pixabay-531880.jpg');
+    background-size: cover;
+    color: rgb(10, 2, 2);
+    padding-bottom: 5rem;
+  }
+  .home-multiplier {
+    margin-bottom: .5rem;
+    color: #11DFC7;
+  }
+  .home-heading {
+    margin-bottom: .3rem;
+  }
+  .home-description {
+    opacity: .8;
+    font-weight: 300;
+  }
+
+ /* About
+ --------------------------------------------------- */
+ .about {
+    background-image: url();
+    background-size: cover;
+    color: rgb(10, 2, 2);
+    padding: 1rem;
+    background-color: #F7F9FB;
+    height: 80px;
+  }
+
+  .about-multiplier {
+    margin-bottom: 1rem;
+    background-color: #F7F9FB;
+  }
+
+  /* Resume
+  -------------------------------------------------- */
+  .resume {
+    background-image: url();
+    background-size: cover;
+    color: rgb(10, 2, 2);
+    padding-bottom: 1rem;
+    background-color: #8FC1E3;
+  }
+
+  .resume-multiplier {
+    margin-bottom: .5rem;
+    background-color: #8FC1E3;
+  }
+
+  /* Projects
+  --------------------------------------------------- */
+  .projects {
+    background-image: url();
+    background-size: cover;
+    color: rgb(10, 2, 2);
+    padding-bottom: 1rem;
+    background-color: #5085A5;
+  }
+
+  .projects-multiplier {
+    margin-bottom: .5rem;
+    background-color: #5085A5;
+  }
+
+  /* Activities
+  --------------------------------------------------- */
+  .activities {
+    background-image: url();
+    background-size: cover;
+    color: rgb(10, 2, 2);
+    padding-bottom: 1rem;
+    background-color: #31708E;
+  }
+
+  .activities-multiplier {
+    margin-bottom: .5rem;
+    background-color: #31708E;
+  }
+
+  /* Statistics
+  --------------------------------------------------- */
+  .statistics {
+    background-image: url();
+    background-size: cover;
+    color: rgb(10, 2, 2);
+    padding-bottom: 1rem;
+    background-color: #687864;
+  }
+
+  .statistics-multiplier {
+    margin-bottom: .5rem;
+    background-color: #687864;
+  }
+
+
+  /* Contact
+  --------------------------------------------------- */
+  .contact {
+    background-image: url();
+    background-size: cover;
+    color: rgb(10, 2, 2);
+    padding-bottom: 1rem;
+    background-color: #F7F9FB;
+  }
+
+  .contact {
+    margin-bottom: .5rem;
+    background-color: #F7F9FB;
+  }
+
+  
+  /* Hero
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .phones {
+    position: relative;
+  }
+  .phone {
+    position: relative;
+    max-width: 80%;
+    margin: 3rem auto -12rem;
+  }
+  .phone + .phone {
+    display: none;
+  }
+  
+  /* Values
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .values {
+    background-image: url('../images/tree-247122_1280.jpg');
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 5rem;
+  }
+  .value-multiplier {
+    margin-bottom: .5rem;
+    color: #11DFC7;
+  }
+  .value-heading {
+    margin-bottom: .3rem;
+  }
+  .value-description {
+    opacity: .8;
+    font-weight: 300;
+  }
+  
+  /* Help
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .get-help {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Categories
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .categories {
+    background-image: url('../images/values-bg.jpg');
+    background-size: cover;
+    color: #fff;
+  }
+  .categories .section-description { 
+    margin-bottom: 4rem;
+  }
+  
+  /* Bigger than 550 */
+  @media (min-width: 550px) {
+    .section {
+      padding: 12rem 0 11rem;
+    }
+    .hero {
+      padding-bottom: 12rem;
+      text-align: left;
+      height: 165px;
+    }
+    .phone {
+      position: absolute;
+      top: -7rem;
+      right: 3rem;
+      max-height: 362px;
+      z-index: 3;
+    }
+    .phone + .phone {
+      top: -6rem;
+      display: block;
+      max-width: 73.8%;
+      right: 0;
+      z-index: 2;
+      max-height: 338px;
+    }
+    .hero-heading {
+      font-size: 2.4rem;
+    }
+  }
+  
+  /* Bigger than 750 */
+  @media (min-width: 750px) {
+    .hero {
+      height: 190px;
+    }
+    .hero-heading {
+      font-size: 2.6rem;
+    }
+    .section {
+      padding: 14rem 0 15rem;
+    }
+    .hero {
+      padding: 16rem 0 14rem;
+    }
+    .section-description {
+      max-width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .phone {
+      top: -14rem;
+      right: 5rem;
+      max-height: 510px;
+    }
+    .phone + .phone {
+      top: -12rem;
+      max-height: 472px;
+    }
+    .categories {
+      padding: 15rem 0 8rem;
+    }
+  }
+  
+  /* Bigger than 1000 */
+  @media (min-width: 1000px) {
+    .section {
+      padding: 20rem 0 19rem;
+    }
+    .hero {
+      padding: 22rem 0;
+    }
+    .hero-heading {
+      font-size: 3.0rem;
+    }
+    .phone {
+      top: -16rem;
+      max-height: 615px;
+    }
+    .phone + .phone {
+      top: -14rem;
+      max-height: 570px;
+    }
+  }
+
+  /* Menu */
+  .navBar{
+    background-color: #838c95; 
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    left: 45%;
+    transform: translateX(-45%);
+    opacity: 1;
+  }
+  
+  /*Floats each item to the left with padding of 14 & 16 px.
+  Removes the underline with text decoration = none.*/
+  .navBar a{
+    float: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    left: 18%;
+    font-family: Tahoma;
+  }
+  
+  /*Background color change during hover state*/
+  .navBar a:hover{
+    background-color: white;
+    color: #009cde;
+  }
+  
+  /*Hides the menu Icon which will show when the nav needs to be responsive*/
+  .navBar .icon{
+    display: none;
+  }
+  
+  /*Set your custom screen width here replacing 700*/
+  @media (max-width: 700px){
+  /*Ignores the first link (which is Home) in the div and       applies 'display = none' to everything else.   Basically hiding everything but Home*/
+    .navBar a:not(:first-child){
+      display: none;
+    }
+  /*Brings the menu icon into view and floats it to the right*/
+    .navBar a.icon{
+      display: block; float: right;
+    }
+    
+  /*The navBar class will be changed to 'navBar responsive' using JS. This chunk of CSS makes the menu icon stay where it is by making the position absolute within it's parent 'right top corner'. Without this, the icon will get kicked around when the items are collapsed and expanded*/
+    .navBar.responsive {
+      position: relative;
+    }
+    .navBar.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+  /*Removes the originally set float and brings them to view*/
+    .navBar.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+  }
+  

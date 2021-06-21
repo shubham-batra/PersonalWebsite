@@ -1,18 +1,14 @@
-This is my personal website. It is accessible at shubham.batra.github.io
+This is my personal website. It is accessible at shubham.batra.github.io. I used the Skeleton framework for the quick loading design and good support for a one-page website. HTML and CSS are used extensively. There is some Javascript used for the navigation bar as Skeleton doesn't come with a native navigation bar.
 
-I used the Skeleton framework for the quick loading design and good support for a one-page website.
-
-HTML and CSS are used extensively.
-
-There is some Javascript used for the navigation bar as Skeleton doesn't come with a native navigation bar.
-
-Known Bugs:
-- Issues with mobile compatibilty
+Current Known Issues:
+- Naviagtion bar is see-through and not properly centered
+- Sections have margins that are too long
+- No version number
 
 -----Release Updates-----
 
-Version 0.8 () (Latest)
-- Reorganize Everything
+Version 0.8 (6/21/2021) (Latest)
+- Reorganized everything. Functional button. Cleaner color scheme. Updated Resume
 
 Version 0.6 (12/02/2020)
 - Centered the navigtion bar, made navigation bar transparent
