@@ -7,7 +7,10 @@ Current Known Issues:
 
 -----Release Updates-----
 
-Version 0.8.6 (6/25/2021) (Latest)
+Version 0.8.7 (2/1/2022) (Latest)
+- Updated Resume and About sections
+
+Version 0.8.6 (6/25/2021) 
 - Reorganized everything. Functional button. Cleaner color scheme. Updated Resume
 - Added to statistics and projects section some tables
 - Centered navigation bar
